@@ -5,6 +5,7 @@ public class CloseToYou : MonoBehaviour {
 
 	public GameObject overHeadText;
 	public TextMesh textMesh;
+	Animator animator;
 	public string startDanceText = "ZXZZ";
 
 	int  textLeft;
@@ -15,6 +16,7 @@ public class CloseToYou : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		animator = this.GetComponentInChildren<Animator>();
 		textMesh = overHeadText.GetComponentInChildren<TextMesh>();
 		textMesh.text = startDanceText;
 		textLeft = 0;
