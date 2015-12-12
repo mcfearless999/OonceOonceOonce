@@ -37,7 +37,7 @@ public class Movement : MonoBehaviour {
 			p = new Vector3(p.x + speed * upright, p.y + speed * upright, p.z);
 		}		
 		if(ismoving == 'x') {
-			p = new Vector3(p.x - speed * downright, p.y - speed * downright, p.z);
+			p = new Vector3(p.x - speed * downright, p.y + speed * downright, p.z);
 		}
 		transform.position = p;
 
