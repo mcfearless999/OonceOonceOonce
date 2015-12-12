@@ -10,15 +10,16 @@ public class CloseToYou : MonoBehaviour {
 	int  textLeft;
 	bool inTrigger;
 	bool dancing;
-	public Animator animator;
+	public float maxEnergy = 10f;
+	public float energy;
 
 	// Use this for initialization
 	void Start () {
 		textMesh = overHeadText.GetComponentInChildren<TextMesh>();
-		animator = this.GetComponentInChildren<Animator>();
 		textMesh.text = startDanceText;
 		textLeft = 0;
 		dancing = false;
+		energy = maxEnergy;
 	}
 	
 	// Update is called once per frame
@@ -40,8 +41,23 @@ public class CloseToYou : MonoBehaviour {
 				animator.enabled = true;
 				dancing = true;
 				// He's dancing now
-			}
 
+			} 
+		} else {
+			if(dancing && inTrigger) {
+				textMesh.text = energy.ToString("F1");
+			}
+			if(dancing && !inTrigger) {
+				energy = energy - Time.deltaTime;
+				if(energy <= 0f) {
+					dancing = false;
+					animator.enabled = false;
+					textMesh.text = startDanceText;
+					textLeft = 0;
+					energy = maxEnergy;
+
+				}
+			}
 		}
 	}
 	void OnTriggerEnter2D(Collider2D c) {
@@ -53,6 +69,10 @@ public class CloseToYou : MonoBehaviour {
 		overHeadText.SetActive(false);
 	}
 	void redrawTextString() {
-		textMesh.text = startDanceText.Substring(textLeft);
+		if(!dancing) {
+			textMesh.text = startDanceText.Substring(textLeft);
+		} else {
+			textMesh.text = energy.ToString("F1");
+		}
 	}
 }
