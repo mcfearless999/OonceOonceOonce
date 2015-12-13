@@ -5,6 +5,11 @@ public class CloseToYou : MonoBehaviour {
 
 	public GameObject overHeadText;
 	public TextMesh textMesh;
+
+	public SpriteRenderer myRenderer;
+	public Material dancingSpriteMaterial;
+	public Material notDancingSpriteMaterial;
+
 	Animator animator;
 	public string startDanceText = "ZXZZ";
 
@@ -22,6 +27,14 @@ public class CloseToYou : MonoBehaviour {
 		textLeft = 0;
 		dancing = false;
 		energy = maxEnergy;
+
+		myRenderer = this.GetComponentInChildren<SpriteRenderer>();
+		notDancingSpriteMaterial = myRenderer.material;
+		dancingSpriteMaterial = Resources.Load<Material>("shiny");
+		if(dancingSpriteMaterial == null) {
+			Debug.Log("shiny material not loaded");
+			dancingSpriteMaterial = myRenderer.material;
+		}
 	}
 	
 	// Update is called once per frame
@@ -42,6 +55,7 @@ public class CloseToYou : MonoBehaviour {
 			if(textLeft >= startDanceText.Length) {
 				animator.enabled = true;
 				dancing = true;
+				myRenderer.material = dancingSpriteMaterial;
 				// He's dancing now
 
 			} 
@@ -57,6 +71,7 @@ public class CloseToYou : MonoBehaviour {
 					textMesh.text = startDanceText;
 					textLeft = 0;
 					energy = maxEnergy;
+					myRenderer.material = notDancingSpriteMaterial;
 
 				}
 			}
