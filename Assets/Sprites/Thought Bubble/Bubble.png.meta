@@ -1,0 +1,345 @@
+fileFormatVersion: 2
+guid: 5b9a935034c2547af98978294c9978c6
+timeCreated: 1449976596
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Bubble_0
+    21300002: Bubble_1
+    21300004: Bubble_2
+    21300006: Bubble_3
+    21300008: Bubble_4
+    21300010: Bubble_5
+    21300012: Bubble_6
+    21300014: Bubble_7
+    21300016: Bubble_8
+    21300018: Bubble_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Bubble_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: -37}
+        - {x: -59, y: -37}
+        - {x: -64, y: -40}
+        - {x: -64, y: -57}
+        - {x: -62, y: -62}
+        - {x: -44, y: -62}
+        - {x: -38, y: -56}
+        - {x: -38, y: -42}
+    - name: Bubble_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: -37}
+        - {x: -59, y: -37}
+        - {x: -64, y: -40}
+        - {x: -64, y: -57}
+        - {x: -62, y: -62}
+        - {x: -44, y: -62}
+        - {x: -38, y: -56}
+        - {x: -38, y: -42}
+    - name: Bubble_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: -37}
+        - {x: -59, y: -37}
+        - {x: -64, y: -40}
+        - {x: -64, y: -57}
+        - {x: -62, y: -62}
+        - {x: -44, y: -62}
+        - {x: -38, y: -56}
+        - {x: -38, y: -42}
+    - name: Bubble_3
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: -37}
+        - {x: -59, y: -37}
+        - {x: -64, y: -40}
+        - {x: -64, y: -57}
+        - {x: -62, y: -62}
+        - {x: -44, y: -62}
+        - {x: -38, y: -56}
+        - {x: -38, y: -42}
+      - - {x: -36, y: -6}
+        - {x: -38, y: -14}
+        - {x: -38, y: -34}
+        - {x: -32, y: -40}
+        - {x: -6, y: -40}
+        - {x: -2, y: -32}
+        - {x: -2, y: -10}
+        - {x: -6, y: -6}
+    - name: Bubble_4
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: -37}
+        - {x: -59, y: -37}
+        - {x: -64, y: -40}
+        - {x: -64, y: -57}
+        - {x: -62, y: -62}
+        - {x: -44, y: -62}
+        - {x: -38, y: -56}
+        - {x: -38, y: -42}
+      - - {x: -36, y: -6}
+        - {x: -38, y: -14}
+        - {x: -38, y: -34}
+        - {x: -32, y: -40}
+        - {x: -6, y: -40}
+        - {x: -2, y: -32}
+        - {x: -2, y: -10}
+        - {x: -6, y: -6}
+    - name: Bubble_5
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: -37}
+        - {x: -59, y: -37}
+        - {x: -64, y: -40}
+        - {x: -64, y: -57}
+        - {x: -62, y: -62}
+        - {x: -44, y: -62}
+        - {x: -38, y: -56}
+        - {x: -38, y: -42}
+      - - {x: -36, y: -6}
+        - {x: -38, y: -14}
+        - {x: -38, y: -34}
+        - {x: -32, y: -40}
+        - {x: -6, y: -40}
+        - {x: -2, y: -32}
+        - {x: -2, y: -10}
+        - {x: -6, y: -6}
+    - name: Bubble_6
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: -37}
+        - {x: -59, y: -37}
+        - {x: -64, y: -40}
+        - {x: -64, y: -57}
+        - {x: -62, y: -62}
+        - {x: -44, y: -62}
+        - {x: -38, y: -56}
+        - {x: -38, y: -42}
+      - - {x: -36, y: -6}
+        - {x: -38, y: -14}
+        - {x: -38, y: -34}
+        - {x: -32, y: -40}
+        - {x: -6, y: -40}
+        - {x: -2, y: -32}
+        - {x: -2, y: -10}
+        - {x: -6, y: -6}
+      - - {x: -59, y: 71}
+        - {x: -63, y: 58}
+        - {x: -63, y: 6}
+        - {x: -35, y: -5}
+        - {x: 63, y: -5}
+        - {x: 72, y: -1}
+        - {x: 72, y: 61}
+        - {x: 69, y: 71}
+    - name: Bubble_7
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: -37}
+        - {x: -59, y: -37}
+        - {x: -64, y: -40}
+        - {x: -64, y: -57}
+        - {x: -62, y: -62}
+        - {x: -44, y: -62}
+        - {x: -38, y: -56}
+        - {x: -38, y: -42}
+      - - {x: -36, y: -6}
+        - {x: -38, y: -14}
+        - {x: -38, y: -34}
+        - {x: -32, y: -40}
+        - {x: -6, y: -40}
+        - {x: -2, y: -32}
+        - {x: -2, y: -10}
+        - {x: -6, y: -6}
+      - - {x: -59, y: 71}
+        - {x: -63, y: 58}
+        - {x: -63, y: 6}
+        - {x: -35, y: -5}
+        - {x: 63, y: -5}
+        - {x: 72, y: -1}
+        - {x: 72, y: 61}
+        - {x: 69, y: 71}
+    - name: Bubble_8
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: -37}
+        - {x: -59, y: -37}
+        - {x: -64, y: -40}
+        - {x: -64, y: -57}
+        - {x: -62, y: -62}
+        - {x: -44, y: -62}
+        - {x: -38, y: -56}
+        - {x: -38, y: -42}
+      - - {x: -36, y: -6}
+        - {x: -38, y: -14}
+        - {x: -38, y: -34}
+        - {x: -32, y: -40}
+        - {x: -6, y: -40}
+        - {x: -2, y: -32}
+        - {x: -2, y: -10}
+        - {x: -6, y: -6}
+      - - {x: -59, y: 71}
+        - {x: -63, y: 58}
+        - {x: -63, y: 6}
+        - {x: -35, y: -5}
+        - {x: 63, y: -5}
+        - {x: 72, y: -1}
+        - {x: 72, y: 61}
+        - {x: 69, y: 71}
+    - name: Bubble_9
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: -37}
+        - {x: -59, y: -37}
+        - {x: -64, y: -40}
+        - {x: -64, y: -57}
+        - {x: -62, y: -62}
+        - {x: -44, y: -62}
+        - {x: -38, y: -56}
+        - {x: -38, y: -42}
+      - - {x: -36, y: -6}
+        - {x: -38, y: -14}
+        - {x: -38, y: -34}
+        - {x: -32, y: -40}
+        - {x: -6, y: -40}
+        - {x: -2, y: -32}
+        - {x: -2, y: -10}
+        - {x: -6, y: -6}
+      - - {x: -59, y: 71}
+        - {x: -63, y: 58}
+        - {x: -63, y: 6}
+        - {x: -35, y: -5}
+        - {x: 63, y: -5}
+        - {x: 72, y: -1}
+        - {x: 72, y: 61}
+        - {x: 69, y: 71}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
