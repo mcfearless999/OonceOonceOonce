@@ -79,13 +79,12 @@ public class CloseToYou : MonoBehaviour {
 					energy = energy - Time.deltaTime;
 					if(energy <= 0f) {
 						dancing = false;
-
+						startDanceText = makeNewStartText();
 						textMesh.text = startDanceText;
 						textLeft = 0;
 						energy = maxEnergy;
 						myRenderer.material = notDancingSpriteMaterial;
 						myAnimator.CrossFade("Not Dancing", 0f);
-						startDanceText = makeNewStartText();
 					}
 				}
 			}
