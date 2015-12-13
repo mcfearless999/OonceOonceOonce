@@ -17,6 +17,7 @@ public class CloseToYou : MonoBehaviour {
 	bool inTrigger;
 	public bool dancing;
 	public float maxEnergy = 10f;
+	public float energyGainModifier = 2f;
 	public float energy;
 	float lastColorChangeTime;
 
@@ -69,7 +70,7 @@ public class CloseToYou : MonoBehaviour {
 					if(dancing && inTrigger) {
 					textMesh.text = energy.ToString("F1");
 					if(energy< maxEnergy) {
-						energy = energy+Time.deltaTime;
+						energy = energy + energyGainModifier * Time.deltaTime;
 						if(energy > 10f) {
 							energy = 10f;
 						}
