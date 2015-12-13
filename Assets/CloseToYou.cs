@@ -7,10 +7,17 @@ public class CloseToYou : MonoBehaviour {
 	public TextMesh textMesh;
 
 	public SpriteRenderer myRenderer;
+//	public Sprite mySprite;
 	public Material dancingSpriteMaterial;
 	public Material notDancingSpriteMaterial;
 
-	Animator animator;
+//	public Sprite dancingSprite;
+//	public Sprite notDancingSprite;
+
+	public Animator myAnimator;
+//	public Animator dancingAnimator;
+//	public Animator notDancingAnimator;
+
 	public string startDanceText = "ZXZZ";
 
 	int  textLeft;
@@ -22,7 +29,7 @@ public class CloseToYou : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		animator = this.GetComponentInChildren<Animator>();
+		myAnimator = this.GetComponentInChildren<Animator>();
 		textMesh = overHeadText.GetComponentInChildren<TextMesh>();
 		textMesh.text = startDanceText;
 		textLeft = 0;
@@ -36,6 +43,7 @@ public class CloseToYou : MonoBehaviour {
 			Debug.Log("shiny material not loaded");
 			dancingSpriteMaterial = myRenderer.material;
 		}
+	//	mySprite = myRenderer.sprite;
 	}
 	
 	// Update is called once per frame
@@ -54,11 +62,15 @@ public class CloseToYou : MonoBehaviour {
 				}
 			}
 			if(textLeft >= startDanceText.Length) {
-				animator.enabled = true;
+				//animator.enabled = true;
+		//		myRenderer.sprite = dancingSprite;
+				//myAnimator = dancingAnimator;
 				dancing = true;
 				myRenderer.material = dancingSpriteMaterial;
 				lastColorChangeTime = Time.time;
 				// He's dancing now
+	//			mySprite = myRenderer.sprite; //debug;
+				myAnimator.CrossFade("Dancing", 0f);
 
 			} 
 		} else {
@@ -77,12 +89,15 @@ public class CloseToYou : MonoBehaviour {
 					energy = energy - Time.deltaTime;
 					if(energy <= 0f) {
 						dancing = false;
-						animator.enabled = false;
+						//animator.enabled = false;
+			//			myRenderer.sprite = notDancingSprite;
+						//myAnimator = notDancingAnimator;
 						textMesh.text = startDanceText;
 						textLeft = 0;
 						energy = maxEnergy;
 						myRenderer.material = notDancingSpriteMaterial;
-
+			//			mySprite = myRenderer.sprite; //debug;
+						myAnimator.CrossFade("Not Dancing", 0f);
 					}
 				}
 			}
