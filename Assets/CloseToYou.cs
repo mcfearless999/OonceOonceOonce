@@ -4,25 +4,18 @@ using System.Collections;
 public class CloseToYou : MonoBehaviour {
 
 	public GameObject overHeadText;
-	public TextMesh textMesh;
+	TextMesh textMesh;
 
-	public SpriteRenderer myRenderer;
-//	public Sprite mySprite;
-	public Material dancingSpriteMaterial;
-	public Material notDancingSpriteMaterial;
+	SpriteRenderer myRenderer;
+	Material dancingSpriteMaterial;
+	Material notDancingSpriteMaterial;
+	Animator myAnimator;
 
-//	public Sprite dancingSprite;
-//	public Sprite notDancingSprite;
-
-	public Animator myAnimator;
-//	public Animator dancingAnimator;
-//	public Animator notDancingAnimator;
-
-	public string startDanceText = "ZXZZ";
+	string startDanceText = "ZXZZ";
 
 	int  textLeft;
 	bool inTrigger;
-	bool dancing;
+	public bool dancing;
 	public float maxEnergy = 10f;
 	public float energy;
 	float lastColorChangeTime;
@@ -31,6 +24,7 @@ public class CloseToYou : MonoBehaviour {
 	void Start () {
 		myAnimator = this.GetComponentInChildren<Animator>();
 		textMesh = overHeadText.GetComponentInChildren<TextMesh>();
+		startDanceText = makeNewStartText();
 		textMesh.text = startDanceText;
 		textLeft = 0;
 		dancing = false;
@@ -43,7 +37,6 @@ public class CloseToYou : MonoBehaviour {
 			Debug.Log("shiny material not loaded");
 			dancingSpriteMaterial = myRenderer.material;
 		}
-	//	mySprite = myRenderer.sprite;
 	}
 	
 	// Update is called once per frame
@@ -62,14 +55,11 @@ public class CloseToYou : MonoBehaviour {
 				}
 			}
 			if(textLeft >= startDanceText.Length) {
-				//animator.enabled = true;
-		//		myRenderer.sprite = dancingSprite;
-				//myAnimator = dancingAnimator;
+
 				dancing = true;
 				myRenderer.material = dancingSpriteMaterial;
 				lastColorChangeTime = Time.time;
 				// He's dancing now
-	//			mySprite = myRenderer.sprite; //debug;
 				myAnimator.CrossFade("Dancing", 0f);
 
 			} 
@@ -89,15 +79,13 @@ public class CloseToYou : MonoBehaviour {
 					energy = energy - Time.deltaTime;
 					if(energy <= 0f) {
 						dancing = false;
-						//animator.enabled = false;
-			//			myRenderer.sprite = notDancingSprite;
-						//myAnimator = notDancingAnimator;
+
 						textMesh.text = startDanceText;
 						textLeft = 0;
 						energy = maxEnergy;
 						myRenderer.material = notDancingSpriteMaterial;
-			//			mySprite = myRenderer.sprite; //debug;
 						myAnimator.CrossFade("Not Dancing", 0f);
+						startDanceText = makeNewStartText();
 					}
 				}
 			}
@@ -110,7 +98,18 @@ public class CloseToYou : MonoBehaviour {
 			lastColorChangeTime = Time.time;
 		}
 	}
+	string makeNewStartText() {
+		string s = "";
 
+		for(int i = 0; i < 4; i++) {
+			if(Random.Range(0f, 1f) < 0.5) {
+				s += "X";
+			} else {
+				s += "Z";
+			}
+		}
+		return s;
+	}
 	void OnTriggerEnter2D(Collider2D c) {
 		inTrigger = true;
 		overHeadText.SetActive(true);
