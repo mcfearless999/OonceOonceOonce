@@ -16,6 +16,14 @@ public class Movement : MonoBehaviour {
 	Vector3 oldLocation;
 	Vector3 olderLocation;
 
+	//restricted area check
+	//public float CheckRestricted(float x1, float x2, float y1, float y2){
+	//	int Restx = 0;
+	//	int Resty = 0;
+
+	//}
+
+
 	// Use this for initialization
 	void Start () {
 		myAnimator = this.GetComponentInChildren<Animator>();
