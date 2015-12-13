@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Dancer
   - Wall
+  - Particles
   layers:
   - Default
   - TransparentFX

@@ -10,6 +10,7 @@ public class CloseToYou : MonoBehaviour {
 	Material dancingSpriteMaterial;
 	Material notDancingSpriteMaterial;
 	Animator myAnimator;
+	public ParticleSystem particles;
 
 	string startDanceText = "ZXZZ";
 
@@ -20,6 +21,7 @@ public class CloseToYou : MonoBehaviour {
 	public float energyGainModifier = 2f;
 	public float energy;
 	float lastColorChangeTime;
+
 
 	// Use this for initialization
 	void Start () {
@@ -38,6 +40,11 @@ public class CloseToYou : MonoBehaviour {
 			Debug.Log("shiny material not loaded");
 			dancingSpriteMaterial = myRenderer.material;
 		}
+		particles = Resources.Load<ParticleSystem>("Particle burst");
+		if(particles == null) {
+			Debug.Log("particles not loaded");
+		}
+
 	}
 	
 	// Update is called once per frame
@@ -58,6 +65,8 @@ public class CloseToYou : MonoBehaviour {
 			if(textLeft >= startDanceText.Length) {
 
 				dancing = true;
+				ParticleSystem g = Instantiate(particles);
+				g.transform.position = this.transform.position;
 				myRenderer.material = dancingSpriteMaterial;
 				lastColorChangeTime = Time.time;
 				// He's dancing now
