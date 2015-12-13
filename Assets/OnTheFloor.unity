@@ -252,6 +252,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 189102, guid: e1146d8bba599492bb938c4a1b9c085d, type: 2}
+      propertyPath: m_TagString
+      value: Dancer
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e1146d8bba599492bb938c4a1b9c085d, type: 2}
   m_IsPrefabParent: 0
