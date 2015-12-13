@@ -7,13 +7,15 @@ public class Movement : MonoBehaviour {
 	public int downright;
 	public char ismoving;
 	public float speed = 0.1f;
-	public float maxvertical;
+	public	 float maxvertical;
 	public float maxhorizontal;
 	public float minvertical; 
 	public float minhorizontal;
+	Animator myAnimator;
 
 	// Use this for initialization
 	void Start () {
+		myAnimator = this.GetComponentInChildren<Animator>();
 		upright		= 1;
 		downright 	= 1;
 	}
@@ -29,10 +31,12 @@ public class Movement : MonoBehaviour {
 		if(Input.GetKeyUp(KeyCode.Z)) {
 			ismoving = ' ';
 			upright = upright * - 1;
+			myAnimator.CrossFade("standing", 0f);
 		}
 		if(Input.GetKeyUp(KeyCode.X)) {
 			ismoving = ' ';
 			downright = downright * -1;
+			myAnimator.CrossFade("standing", 0f);
 		}		
 	}
 
@@ -41,11 +45,21 @@ public class Movement : MonoBehaviour {
 
 		if (ismoving == 'z') {
 			p = new Vector3 (p.x + speed * upright, p.y + speed * upright, p.z);
-		}		
+			if(upright == 1) {
+				myAnimator.CrossFade("right", 0f);
+			} else {
+				myAnimator.CrossFade("left", 0f);
+
+			}
+		} 
 		if (ismoving == 'x') {
 			p = new Vector3 (p.x - speed * downright, p.y + speed * downright, p.z);
+			if(downright == 1) {
+				myAnimator.CrossFade("left", 0f);
+			} else {
+				myAnimator.CrossFade("right", 0f);
+			}
 		}
-
 
 		if (p.x > maxhorizontal) {
 			p = new Vector3 (maxhorizontal, p.y, p.z);

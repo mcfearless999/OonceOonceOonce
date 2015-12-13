@@ -1,0 +1,451 @@
+fileFormatVersion: 2
+guid: d3ebe14c34fd74c31824bac6eed139a8
+timeCreated: 1449971864
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Protag_all_0
+    21300002: Protag_all_1
+    21300004: Protag_all_2
+    21300006: Protag_all_3
+    21300008: Protag_all_4
+    21300010: Protag_all_5
+    21300012: Protag_all_6
+    21300014: Protag_all_7
+    21300016: Protag_all_8
+    21300018: Protag_all_9
+    21300020: Protag_all_10
+    21300022: Protag_all_11
+    21300024: Protag_all_12
+    21300026: Protag_all_13
+    21300028: Protag_all_14
+    21300030: Protag_all_15
+    21300032: Protag_all_16
+    21300034: Protag_all_17
+    21300036: Protag_all_18
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Protag_all_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 45.716534}
+        - {x: -12, y: 45.716534}
+        - {x: -35, y: 35.716534}
+        - {x: -35, y: -53.283466}
+        - {x: 6, y: -53.283466}
+        - {x: 24, y: -49.283466}
+        - {x: 24, y: 4.7165337}
+        - {x: 19, y: 31.716534}
+    - name: Protag_all_1
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 4
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.716537, y: 44.716534}
+        - {x: -31.716537, y: 35.716534}
+        - {x: -31.716537, y: -53.283466}
+        - {x: 11.283463, y: -53.283466}
+        - {x: 30.283463, y: -48.283466}
+        - {x: 30.283463, y: 7.7165337}
+        - {x: 24.283463, y: 44.716534}
+    - name: Protag_all_2
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 4
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.566925, y: 10.716534}
+        - {x: 17.566925, y: 39.716534}
+        - {x: 6.566925, y: 42.716534}
+        - {x: -8.433075, y: 42.716534}
+        - {x: -20.433075, y: 26.716534}
+        - {x: -25.433075, y: 5.7165337}
+        - {x: -25.433075, y: -40.283466}
+        - {x: -18.433075, y: -51.283466}
+        - {x: -16.433075, y: -53.283466}
+        - {x: -11.433075, y: -53.283466}
+        - {x: -7.433075, y: -51.283466}
+        - {x: 17.566925, y: -37.283466}
+        - {x: 23.566925, y: -28.283466}
+    - name: Protag_all_3
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 4
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.350403, y: -22.283466}
+        - {x: 17.350403, y: 39.716534}
+        - {x: 6.350403, y: 42.716534}
+        - {x: -10.649597, y: 42.716534}
+        - {x: -26.649597, y: 30.716534}
+        - {x: -26.649597, y: 19.716534}
+        - {x: -15.649597, y: 9.716534}
+        - {x: -22.649597, y: -6.2834663}
+        - {x: -30.649597, y: -44.283466}
+        - {x: -30.649597, y: -53.283466}
+        - {x: -4.649597, y: -53.283466}
+        - {x: 28.350403, y: -35.283466}
+        - {x: 31.350403, y: -31.283466}
+        - {x: 31.350403, y: -25.283466}
+    - name: Protag_all_4
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 4
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.86615, y: 44.716534}
+        - {x: -12.86615, y: 42.716534}
+        - {x: -13.86615, y: 35.716534}
+        - {x: -28.86615, y: 23.716534}
+        - {x: -33.86615, y: 17.716534}
+        - {x: -33.86615, y: -53.283466}
+        - {x: 25.13385, y: -53.283466}
+        - {x: 25.13385, y: 35.716534}
+        - {x: 13.13385, y: 44.716534}
+    - name: Protag_all_5
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 4
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.417297, y: 44.716534}
+        - {x: -8.582703, y: 44.716534}
+        - {x: -13.582703, y: 38.716534}
+        - {x: -25.582703, y: 5.7165337}
+        - {x: -25.582703, y: -43.283466}
+        - {x: -5.5827026, y: -53.283466}
+        - {x: 35.417297, y: -53.283466}
+        - {x: 35.417297, y: 26.716534}
+        - {x: 16.417297, y: 41.716534}
+    - name: Protag_all_6
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 4
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.700806, y: 44.716534}
+        - {x: -17.299194, y: 44.716534}
+        - {x: -17.299194, y: -43.283466}
+        - {x: -14.299194, y: -53.283466}
+        - {x: 30.700806, y: -53.283466}
+        - {x: 30.700806, y: -13.283466}
+        - {x: 23.700806, y: 23.716534}
+    - name: Protag_all_7
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 4
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.484253, y: 25.716534}
+        - {x: 33.484253, y: 36.716534}
+        - {x: 13.484253, y: 44.716534}
+        - {x: -10.515747, y: 44.716534}
+        - {x: -15.515747, y: 36.716534}
+        - {x: -24.515747, y: 9.716534}
+        - {x: -24.515747, y: -44.283466}
+        - {x: -8.515747, y: -53.283466}
+        - {x: 36.484253, y: -53.283466}
+        - {x: 36.484253, y: -44.283466}
+        - {x: 32.484253, y: -12.283466}
+    - name: Protag_all_8
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 4
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.7323, y: 43.716534}
+        - {x: -20.7323, y: 31.716534}
+        - {x: -20.7323, y: -53.283466}
+        - {x: 39.2677, y: -53.283466}
+        - {x: 39.2677, y: 25.716534}
+        - {x: 32.2677, y: 43.716534}
+    - name: Protag_all_9
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 4
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5512085, y: 39.716534}
+        - {x: -6.4487915, y: 39.716534}
+        - {x: -14.4487915, y: 22.716534}
+        - {x: -14.4487915, y: -52.283466}
+        - {x: 25.551208, y: -52.283466}
+        - {x: 25.551208, y: -29.283466}
+        - {x: 21.551208, y: 34.716534}
+    - name: Protag_all_10
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 4
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.6654053, y: 39.716534}
+        - {x: -10.665405, y: 32.716534}
+        - {x: -14.665405, y: 11.716534}
+        - {x: -14.665405, y: -50.283466}
+        - {x: -9.665405, y: -52.283466}
+        - {x: 25.334595, y: -52.283466}
+        - {x: 25.334595, y: 39.716534}
+    - name: Protag_all_11
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 4
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.118164, y: 38.716534}
+        - {x: -7.881836, y: 38.716534}
+        - {x: -14.881836, y: 36.716534}
+        - {x: -14.881836, y: -51.283466}
+        - {x: -13.881836, y: -52.283466}
+        - {x: 25.118164, y: -52.283466}
+        - {x: 25.118164, y: -16.283466}
+        - {x: 18.118164, y: 36.716534}
+    - name: Protag_all_12
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 4
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.598389, y: -52.283466}
+        - {x: 25.401611, y: -52.283466}
+        - {x: 25.401611, y: -13.283466}
+        - {x: 21.401611, y: 33.716534}
+        - {x: 18.401611, y: 38.716534}
+        - {x: -12.598389, y: 38.716534}
+        - {x: -14.598389, y: 37.716534}
+    - name: Protag_all_13
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 4
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.685059, y: 39.716534}
+        - {x: 15.685059, y: 46.716534}
+        - {x: 1.6850586, y: 46.716534}
+        - {x: -6.3149414, y: 38.716534}
+        - {x: -22.314941, y: -43.283466}
+        - {x: -22.314941, y: -53.283466}
+        - {x: 26.685059, y: -53.283466}
+        - {x: 27.685059, y: -51.283466}
+        - {x: 27.685059, y: -12.283466}
+    - name: Protag_all_14
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 4
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.531494, y: -53.283466}
+        - {x: 12.468506, y: -53.283466}
+        - {x: 29.468506, y: -49.283466}
+        - {x: 29.468506, y: 3.7165337}
+        - {x: 24.468506, y: 41.716534}
+        - {x: 18.468506, y: 45.716534}
+        - {x: -5.531494, y: 45.716534}
+        - {x: -8.531494, y: 22.716534}
+    - name: Protag_all_15
+      rect:
+        serializedVersion: 2
+        x: 3750
+        y: 4
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.2519531, y: 46.716534}
+        - {x: -3.7480469, y: 43.716534}
+        - {x: -3.7480469, y: 27.716534}
+        - {x: -1.7480469, y: -53.283466}
+        - {x: 24.251953, y: -53.283466}
+        - {x: 24.251953, y: 46.716534}
+    - name: Protag_all_16
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 4
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.4646, y: -53.283466}
+        - {x: 42.5354, y: -53.283466}
+        - {x: 42.5354, y: -42.283466}
+        - {x: 22.5354, y: 45.716534}
+        - {x: -5.4645996, y: 45.716534}
+        - {x: -16.4646, y: 7.7165337}
+    - name: Protag_all_17
+      rect:
+        serializedVersion: 2
+        x: 4250
+        y: 4
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.31897, y: -53.283466}
+        - {x: 25.31897, y: -53.283466}
+        - {x: 25.31897, y: 13.716534}
+        - {x: 22.31897, y: 40.716534}
+        - {x: 14.31897, y: 46.716534}
+        - {x: 2.3189697, y: 46.716534}
+        - {x: -2.6810303, y: 39.716534}
+        - {x: -2.6810303, y: -12.283466}
+        - {x: -1.6810303, y: -53.283466}
+        - {x: 12.31897, y: -53.283466}
+        - {x: 14.31897, y: -49.283466}
+        - {x: 14.31897, y: -46.283466}
+        - {x: 14.31897, y: -51.283466}
+    - name: Protag_all_18
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 4
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.897583, y: 29.716534}
+        - {x: -1.897583, y: 26.716534}
+        - {x: -7.897583, y: -33.283466}
+        - {x: -7.897583, y: -53.283466}
+        - {x: 19.102417, y: -53.283466}
+        - {x: 30.102417, y: -51.283466}
+        - {x: 30.102417, y: 13.716534}
+        - {x: 25.102417, y: 42.716534}
+        - {x: 14.102417, y: 45.716534}
+        - {x: 0.10241699, y: 45.716534}
+        - {x: -3.897583, y: 38.716534}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
