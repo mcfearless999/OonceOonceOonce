@@ -1,0 +1,317 @@
+fileFormatVersion: 2
+guid: e354169176bd3412eb64ee3f7d899885
+timeCreated: 1449973949
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Skullcap_0
+    21300002: Skullcap_1
+    21300004: Skullcap_2
+    21300006: Skullcap_3
+    21300008: Skullcap_4
+    21300010: Skullcap_5
+    21300012: Skullcap_6
+    21300014: Skullcap_7
+    21300016: Skullcap_8
+    21300018: Skullcap_9
+    21300020: Skullcap_10
+    21300022: Skullcap_11
+    21300024: Skullcap_12
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Skullcap_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 52}
+        - {x: -26, y: -9}
+        - {x: -26, y: -59}
+        - {x: 34, y: -59}
+        - {x: 34, y: 33}
+        - {x: 25, y: 52}
+    - name: Skullcap_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 4
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 23}
+        - {x: -26, y: -15}
+        - {x: -26, y: -59}
+        - {x: 34, y: -59}
+        - {x: 34, y: 35}
+        - {x: 33, y: 51}
+        - {x: -8, y: 51}
+        - {x: -9, y: 47}
+    - name: Skullcap_2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 4
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: -9}
+        - {x: -26, y: -59}
+        - {x: 34, y: -59}
+        - {x: 34, y: -19}
+        - {x: 25, y: 49}
+        - {x: -9, y: 49}
+        - {x: -14, y: 48}
+    - name: Skullcap_3
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 4
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 47}
+        - {x: -26, y: -59}
+        - {x: 34, y: -59}
+        - {x: 34, y: 43}
+        - {x: 29, y: 47}
+    - name: Skullcap_4
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 4
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: -6}
+        - {x: 19, y: -6}
+        - {x: 21, y: -4}
+        - {x: 29, y: 9}
+        - {x: 28, y: 43}
+        - {x: -9, y: 43}
+        - {x: -23, y: 14}
+        - {x: -26, y: -20}
+        - {x: -26, y: -59}
+        - {x: 34, y: -59}
+        - {x: 34, y: -24}
+        - {x: 32, y: -22}
+        - {x: 12, y: -6}
+    - name: Skullcap_5
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 4
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 19}
+        - {x: -17, y: 18}
+        - {x: -26, y: -6}
+        - {x: -26, y: -59}
+        - {x: 34, y: -59}
+        - {x: 34, y: -12}
+        - {x: 17, y: 19}
+      - - {x: -8, y: 55}
+        - {x: -9, y: 51}
+        - {x: -9, y: 24}
+        - {x: -6, y: 23}
+        - {x: 21, y: 23}
+        - {x: 24, y: 24}
+        - {x: 24, y: 55}
+    - name: Skullcap_6
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 4
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 53}
+        - {x: -26, y: 6}
+        - {x: -26, y: -59}
+        - {x: 34, y: -59}
+        - {x: 34, y: -19}
+        - {x: 28, y: 52}
+        - {x: 20, y: 53}
+    - name: Skullcap_7
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 4
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 20}
+        - {x: -42, y: -34}
+        - {x: -24, y: -59}
+        - {x: 38, y: -59}
+        - {x: 38, y: 7}
+        - {x: 34, y: 20}
+    - name: Skullcap_8
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 4
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 19}
+        - {x: -38, y: 19}
+        - {x: -42, y: 17}
+        - {x: -42, y: -35}
+        - {x: -24, y: -59}
+        - {x: 38, y: -59}
+        - {x: 38, y: -21}
+        - {x: 17, y: -5}
+    - name: Skullcap_9
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 4
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 17}
+        - {x: -40, y: 17}
+        - {x: -42, y: 13}
+        - {x: -42, y: -31}
+        - {x: -24, y: -59}
+        - {x: 38, y: -59}
+        - {x: 38, y: -19}
+        - {x: 15, y: 15}
+    - name: Skullcap_10
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 4
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 17}
+        - {x: -40, y: 17}
+        - {x: -42, y: 13}
+        - {x: -42, y: -31}
+        - {x: -24, y: -59}
+        - {x: 38, y: -59}
+        - {x: 38, y: -19}
+        - {x: 15, y: 15}
+    - name: Skullcap_11
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 4
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 19}
+        - {x: -38, y: 19}
+        - {x: -42, y: 17}
+        - {x: -42, y: -35}
+        - {x: -24, y: -59}
+        - {x: 38, y: -59}
+        - {x: 38, y: -21}
+        - {x: 17, y: -5}
+    - name: Skullcap_12
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 4
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 20}
+        - {x: -42, y: -34}
+        - {x: -24, y: -59}
+        - {x: 38, y: -59}
+        - {x: 38, y: 7}
+        - {x: 34, y: 20}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
