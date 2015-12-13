@@ -11,13 +11,17 @@ public class Movement : MonoBehaviour {
 	public float maxhorizontal;
 	public float minvertical; 
 	public float minhorizontal;
+	bool inWall;
 	Animator myAnimator;
+	Vector3 oldLocation;
+	Vector3 olderLocation;
 
 	// Use this for initialization
 	void Start () {
 		myAnimator = this.GetComponentInChildren<Animator>();
 		upright		= 1;
 		downright 	= 1;
+		inWall 	= false;
 	}
 	
 	// Update is called once per frame
@@ -42,7 +46,10 @@ public class Movement : MonoBehaviour {
 
 	void FixedUpdate () {
 		Vector3 p = transform.position;
-
+//		if(!inWall) {
+//			olderLocation = oldLocation;
+//			oldLocation = p;
+//		}
 		if (ismoving == 'z') {
 			p = new Vector3 (p.x + speed * upright, p.y + speed * upright, p.z);
 			if(upright == 1) {
@@ -74,5 +81,29 @@ public class Movement : MonoBehaviour {
 			p = new Vector3 (p.x, minvertical, p.z);
 		}
 		transform.position = p;
+	}
+	void OnTriggerEnter2D(Collider2D c) {
+		if(c.tag == "Wall") {
+			upright = upright * - 1;
+			downright = downright * -1;
+//			Debug.Log("Wall");
+			inWall = true;
+//			olderLocation = transform.position;
+		}
+	}
+	void OnTriggerStay2D(Collider2D c) {
+		//Debug.Log("Collider");
+		if(c.tag == "Wall") {
+			inWall = true;
+//			Debug.Log("In Wall");
+//			transform.position = olderLocation;
+		}
+	}
+	void OnTriggerExit2D(Collider2D c) {
+		//Debug.Log("Collider");
+		if(c.tag == "Wall") {
+//			Debug.Log("Left Wall");
+			inWall = false;
+		}
 	}
 }
