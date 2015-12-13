@@ -1,0 +1,347 @@
+fileFormatVersion: 2
+guid: 856a992bbe52f4371950f925ba41c94d
+timeCreated: 1449998731
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: FishHead_0
+    21300002: FishHead_1
+    21300004: FishHead_2
+    21300006: FishHead_3
+    21300008: FishHead_4
+    21300010: FishHead_5
+    21300012: FishHead_6
+    21300014: FishHead_7
+    21300016: FishHead_8
+    21300018: FishHead_9
+    21300020: FishHead_10
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: FishHead_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: 35}
+        - {x: 27, y: 49}
+        - {x: -6, y: 49}
+        - {x: -17, y: 45}
+        - {x: -31, y: 5}
+        - {x: -31, y: -32}
+        - {x: -27, y: -51}
+        - {x: -25, y: -58}
+        - {x: -12, y: -58}
+        - {x: -10, y: -57}
+        - {x: -11, y: -49}
+        - {x: 0, y: -55}
+        - {x: 11, y: -60}
+        - {x: 21, y: -60}
+        - {x: 21, y: -59}
+        - {x: 16, y: -54}
+        - {x: 36, y: -27}
+    - name: FishHead_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 4
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 50}
+        - {x: -8, y: 50}
+        - {x: -18, y: 46}
+        - {x: -37, y: 3}
+        - {x: -37, y: -56}
+        - {x: -35, y: -60}
+        - {x: 22, y: -60}
+        - {x: 31, y: -49}
+        - {x: 31, y: 36}
+        - {x: 27, y: 49}
+    - name: FishHead_2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 4
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 50}
+        - {x: -12, y: 50}
+        - {x: -21, y: 47}
+        - {x: -36, y: -26}
+        - {x: -36, y: -33}
+        - {x: -31, y: -36}
+        - {x: -21, y: -36}
+        - {x: -18, y: -34}
+        - {x: -14, y: -28}
+        - {x: -7, y: -30}
+        - {x: -1, y: -30}
+        - {x: -4, y: -31}
+        - {x: -15, y: -29}
+        - {x: -16, y: -32}
+        - {x: -16, y: -36}
+        - {x: -35, y: -53}
+        - {x: -32, y: -58}
+        - {x: -30, y: -60}
+        - {x: 15, y: -60}
+        - {x: 36, y: -49}
+        - {x: 36, y: 17}
+        - {x: 26, y: 48}
+    - name: FishHead_3
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 4
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: -34}
+        - {x: 11, y: -32}
+        - {x: 25, y: -37}
+        - {x: 36, y: -44}
+        - {x: 36, y: 26}
+        - {x: 33, y: 50}
+        - {x: -11, y: 50}
+        - {x: -21, y: 47}
+        - {x: -28, y: -9}
+        - {x: -28, y: -38}
+        - {x: -23, y: -46}
+        - {x: 5, y: -60}
+        - {x: 31, y: -60}
+        - {x: 36, y: -55}
+        - {x: 36, y: -48}
+        - {x: 27, y: -40}
+    - name: FishHead_4
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 4
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 27}
+        - {x: -28, y: 25}
+        - {x: -29, y: 22}
+        - {x: -29, y: -6}
+        - {x: -22, y: -17}
+        - {x: -1, y: -59}
+        - {x: 32, y: -59}
+        - {x: 34, y: -58}
+        - {x: 48, y: -37}
+        - {x: 48, y: 27}
+    - name: FishHead_5
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 4
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: -59}
+        - {x: 31, y: -59}
+        - {x: 32, y: -58}
+        - {x: 48, y: -37}
+        - {x: 48, y: 16}
+        - {x: 42, y: 26}
+        - {x: -26, y: 26}
+        - {x: -28, y: 25}
+        - {x: -29, y: 24}
+        - {x: -29, y: -31}
+        - {x: -13, y: -59}
+        - {x: 16, y: -59}
+        - {x: 16, y: -51}
+        - {x: 18, y: -58}
+    - name: FishHead_6
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 4
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: 27}
+        - {x: -22, y: 27}
+        - {x: -26, y: 23}
+        - {x: -29, y: 17}
+        - {x: -29, y: -6}
+        - {x: -22, y: -17}
+        - {x: 5, y: -36}
+        - {x: 9, y: -35}
+        - {x: 11, y: -33}
+        - {x: 12, y: -28}
+        - {x: 13, y: -28}
+        - {x: 8, y: -39}
+        - {x: 6, y: -41}
+        - {x: 0, y: -54}
+        - {x: 1, y: -59}
+        - {x: 37, y: -59}
+        - {x: 48, y: -30}
+        - {x: 48, y: 21}
+    - name: FishHead_7
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 4
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: -36}
+        - {x: 31, y: -41}
+        - {x: 48, y: -13}
+        - {x: 48, y: 10}
+        - {x: 37, y: 23}
+        - {x: 26, y: 25}
+        - {x: -29, y: 25}
+        - {x: -29, y: -34}
+        - {x: 2, y: -59}
+        - {x: 31, y: -59}
+        - {x: 32, y: -50}
+        - {x: 23, y: -37}
+        - {x: 23, y: -34}
+    - name: FishHead_8
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 4
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 27}
+        - {x: -28, y: 25}
+        - {x: -29, y: 21}
+        - {x: -29, y: -14}
+        - {x: -1, y: -38}
+        - {x: 9, y: -36}
+        - {x: 13, y: -27}
+        - {x: 8, y: -39}
+        - {x: 6, y: -41}
+        - {x: 0, y: -54}
+        - {x: 1, y: -59}
+        - {x: 37, y: -59}
+        - {x: 48, y: -40}
+        - {x: 48, y: 27}
+    - name: FishHead_9
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 4
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: -59}
+        - {x: 31, y: -59}
+        - {x: 32, y: -58}
+        - {x: 48, y: -37}
+        - {x: 48, y: 16}
+        - {x: 42, y: 26}
+        - {x: -26, y: 26}
+        - {x: -28, y: 25}
+        - {x: -29, y: 24}
+        - {x: -29, y: -31}
+        - {x: -13, y: -59}
+        - {x: 16, y: -59}
+        - {x: 16, y: -51}
+        - {x: 18, y: -58}
+    - name: FishHead_10
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 4
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 27}
+        - {x: -28, y: 25}
+        - {x: -29, y: 22}
+        - {x: -29, y: -6}
+        - {x: -22, y: -17}
+        - {x: -1, y: -59}
+        - {x: 32, y: -59}
+        - {x: 34, y: -58}
+        - {x: 48, y: -37}
+        - {x: 48, y: 27}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
