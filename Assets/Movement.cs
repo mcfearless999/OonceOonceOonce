@@ -7,7 +7,7 @@ public class Movement : MonoBehaviour {
 	public int downright;
 	public char ismoving;
 	public float speed = 0.1f;
-	public	 float maxvertical;
+	public float maxvertical;
 	public float maxhorizontal;
 	public float minvertical; 
 	public float minhorizontal;
@@ -31,7 +31,22 @@ public class Movement : MonoBehaviour {
 		downright 	= 1;
 
 	}
-	
+
+	public int CheckWall1(float xvect, float yvect){
+		if (xvect < -2.9f && yvect < -0.3f) {
+			return 1;
+		} else { 
+			return 0;
+		}
+	}
+	public int CheckWall2(float xvect, float yvect){
+			if (xvect > 1.8f && yvect < -2.5f) {
+				return 1;
+			} else { 
+				return 0;
+			}
+
+	}
 	// Update is called once per frame
 	void Update () {
 		if(Input.GetKeyDown(KeyCode.Z)) {
@@ -74,6 +89,12 @@ public class Movement : MonoBehaviour {
 			} else {
 				myAnimator.CrossFade("right", 0f);
 			}
+		}
+
+		int wallcheck1 = CheckWall1 (p.x, p.y);
+		int wallcheck2 = CheckWall2 (p.x, p.y);
+		if (wallcheck1 == 1 || wallcheck2 ==1) {
+			p = transform.position;
 		}
 
 		if (p.x > maxhorizontal) {
