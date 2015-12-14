@@ -303,7 +303,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 189218228f4e04a1fa066fc7ae007b17, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 1
@@ -420,7 +420,7 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 34.2, y: 160.7}
+  m_AnchoredPosition: {x: 34.2, y: 320}
   m_SizeDelta: {x: 249.2, y: 32.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &905092414
@@ -1026,9 +1026,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dancers: []
   text: {fileID: 905092414}
-  nextLevel: Level4
+  nextLevel: Level5
   endingtext: {fileID: 1291262288}
-  timedelay: 0
+  timedelay: 2
   win: 0
 --- !u!4 &1602067546
 Transform:

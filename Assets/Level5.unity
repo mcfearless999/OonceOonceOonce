@@ -420,7 +420,7 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 34.2, y: 160.7}
+  m_AnchoredPosition: {x: 34.2, y: 320}
   m_SizeDelta: {x: 249.2, y: 32.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &905092414
@@ -1068,9 +1068,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dancers: []
   text: {fileID: 905092414}
-  nextLevel: Ending
+  nextLevel: Closing
   endingtext: {fileID: 1291262288}
-  timedelay: 0
+  timedelay: 2
   win: 0
 --- !u!4 &1602067546
 Transform:
@@ -1452,7 +1452,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 415714, guid: aa661ea25d8d9421f8848bfe923eb3eb, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.23
+      value: 3.17
       objectReference: {fileID: 0}
     - target: {fileID: 415714, guid: aa661ea25d8d9421f8848bfe923eb3eb, type: 2}
       propertyPath: m_LocalPosition.z
