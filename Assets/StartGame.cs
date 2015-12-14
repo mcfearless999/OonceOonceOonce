@@ -6,7 +6,7 @@ public class StartGame : MonoBehaviour {
 	public string Scene;
 	// Use this for initialization
 	public void  LevelStart(){
-		Application.LoadLevel (Scene);
+		UnityEngine.SceneManagement.SceneManager.LoadScene(Scene);
 	}
 	void Start () {
 	
