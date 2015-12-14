@@ -25,6 +25,10 @@ public class TrackDancers : MonoBehaviour {
 		int num_dancing = 0;
 		int num_not_dancing = 0;
 		foreach (CloseToYou s in scriptHolder) {
+			if(win == 1) {
+				s.energy = s.maxEnergy;
+				s.dancing = true;
+			}
 			if(s.dancing) {
 				num_dancing++;
 			} else {
@@ -36,7 +40,7 @@ public class TrackDancers : MonoBehaviour {
 			text.text = "Get all the people dancing!";
 		} 
 		if(num_not_dancing == 0 || win==1) {
-			
+			win = 1;
 			text.text = "Everyone is dancing!  Yay!!!!";
 			timedelay = timedelay - Time.deltaTime;
 			endingtext.text = "YOU ARE AWESOME !!!!!!" +
