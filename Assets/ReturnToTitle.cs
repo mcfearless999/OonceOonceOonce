@@ -2,19 +2,18 @@
 using System.Collections;
 
 
-public class StartGame : MonoBehaviour {
-	public string Scene;
+public class ReturnToTitle : MonoBehaviour {
+	public string Scene = "Opening";
 	// Use this for initialization
-	public void  LevelStart(){
+	public void  GoToTitle(){
 		UnityEngine.SceneManagement.SceneManager.LoadScene(Scene);
-	
 	}
 	void Start () {
-	
+
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
-		
+
 	}
 }
