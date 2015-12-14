@@ -7,6 +7,10 @@ public class TrackDancers : MonoBehaviour {
 	CloseToYou[] scriptHolder;
 	public Text text;
 	public string nextLevel;
+	public Text	endingtext;
+	public float timedelay;
+	public int win;
+
 	// Use this for initialization
 	void Start () {
 		 dancers = GameObject.FindGameObjectsWithTag("Dancer");
@@ -31,8 +35,17 @@ public class TrackDancers : MonoBehaviour {
 		if(num_dancing == 0) {
 			text.text = "Get all the people dancing!";
 		} 
-		if(num_not_dancing == 0) {
+		if(num_not_dancing == 0 || win==1) {
+			
 			text.text = "Everyone is dancing!  Yay!!!!";
+			timedelay = timedelay - Time.deltaTime;
+			endingtext.text = "YOU ARE AWESOME !!!!!!";
+			if (timedelay <= 0) {
+				
+
+				UnityEngine.SceneManagement.SceneManager.LoadScene (nextLevel);
+			}
+
 		}
 	}
 }
