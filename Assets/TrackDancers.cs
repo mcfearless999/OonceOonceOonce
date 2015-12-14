@@ -39,7 +39,8 @@ public class TrackDancers : MonoBehaviour {
 			
 			text.text = "Everyone is dancing!  Yay!!!!";
 			timedelay = timedelay - Time.deltaTime;
-			endingtext.text = "YOU ARE AWESOME !!!!!!";
+			endingtext.text = "YOU ARE AWESOME !!!!!!" +
+				"Next Level";
 			if (timedelay <= 0) {
 				
 
