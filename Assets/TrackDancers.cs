@@ -27,7 +27,7 @@ public class TrackDancers : MonoBehaviour {
 				num_not_dancing++;
 			}
 		}
-		text.text = "You have " + (float)num_dancing/(num_dancing+num_not_dancing) + " people dancing!";
+		text.text = "You have " + ((float)num_dancing/(num_dancing+num_not_dancing)*100).ToString("F2") + "% people dancing!";
 		if(num_dancing == 0) {
 			text.text = "Get all the people dancing!";
 		} 
