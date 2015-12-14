@@ -139,4 +139,8 @@ public class CloseToYou : MonoBehaviour {
 			textMesh.text = energy.ToString("F1");
 		}
 	}
+	public void yayWin() {
+		ParticleSystem g = Instantiate(particles);
+		g.transform.position = transform.position;
+	}
 }

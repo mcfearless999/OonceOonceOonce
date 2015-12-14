@@ -10,11 +10,13 @@ public class TrackDancers : MonoBehaviour {
 	public Text	endingtext;
 	public float timedelay;
 	public int win;
+	bool particleWinFlag;
 
 	// Use this for initialization
 	void Start () {
-		 dancers = GameObject.FindGameObjectsWithTag("Dancer");
-		 scriptHolder = new CloseToYou[dancers.Length];
+		particleWinFlag = false;
+		dancers = GameObject.FindGameObjectsWithTag("Dancer");
+		scriptHolder = new CloseToYou[dancers.Length];
 		for(int i = 0; i < dancers.Length; i++) {
 			scriptHolder[i] = dancers[i].GetComponentInChildren<CloseToYou>();
 		}
@@ -40,6 +42,11 @@ public class TrackDancers : MonoBehaviour {
 			text.text = "Get all the people dancing!";
 		} 
 		if(num_not_dancing == 0 || win==1) {
+			if(!particleWinFlag) {
+				foreach (CloseToYou s in scriptHolder) {
+					s.yayWin();
+				}
+			}
 			win = 1;
 			text.text = "Everyone is dancing!  Yay!!!!";
 			timedelay = timedelay - Time.deltaTime;
