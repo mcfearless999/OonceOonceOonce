@@ -12,6 +12,9 @@ public class CloseToYou : MonoBehaviour {
 	Animator myAnimator;
 	public ParticleSystem particles;
 
+	//public AudioClip popsound = GetComponent(Assets/sound/bubblepop);
+
+
 	string startDanceText = "ZXZZ";
 
 	int  textLeft;
@@ -25,6 +28,7 @@ public class CloseToYou : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		
 		myAnimator = this.GetComponentInChildren<Animator>();
 		textMesh = overHeadText.GetComponentInChildren<TextMesh>();
 		startDanceText = makeNewStartText();
@@ -66,6 +70,7 @@ public class CloseToYou : MonoBehaviour {
 
 				dancing = true;
 				ParticleSystem g = Instantiate(particles);
+				//popsound.PlayOneShot (popsound, 1.f);
 				g.transform.position = this.transform.position;
 				myRenderer.material = dancingSpriteMaterial;
 				lastColorChangeTime = Time.time;
